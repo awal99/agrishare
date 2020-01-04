@@ -1,3 +1,10 @@
+/**
+ * @author Sulemana Awal
+ * @email [awalsule001@gmail.com]
+ * @create date 2020-01-04 10:00:00
+ * @modify date 2020-01-04 10:00:00
+ * @desc [description]
+ */
 import React from "react";
 import {
   Row,

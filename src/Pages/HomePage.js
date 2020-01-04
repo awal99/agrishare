@@ -1,3 +1,10 @@
+/**
+ * @author Sulemana Awal
+ * @email [awalsule001@gmail.com]
+ * @create date 2020-01-04 09:59:23
+ * @modify date 2020-01-04 09:59:23
+ * @desc [description]
+ */
 import React from "react";
 import { Link, BrowserRouter as Router } from "react-router-dom";
 import {

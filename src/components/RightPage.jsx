@@ -1,3 +1,10 @@
+/**
+ * @author Sulemana Awal
+ * @email [awalsule001@gmail.com]
+ * @create date 2020-01-04 09:59:41
+ * @modify date 2020-01-04 09:59:41
+ * @desc [description]
+ */
 import React from 'react';
 import {Row,Col,Card,Button,Form,Image} from 'react-bootstrap';
 import {IoMdAdd,IoMdCreate} from 'react-icons/io';
