@@ -1,0 +1,124 @@
+/* //////////Home Page Styles/////////// */
+
+body {
+  height: 100vh !important;
+  background-color: #f6f7f7 !important;
+}
+
+.navbar {
+  justify-content: space-around !important;
+}
+
+.customSearch {
+  background-color: white;
+  border-radius: 20px;
+  justify-content: space-around;
+  padding-left: 7px;
+}
+
+#inputText {
+  border: none !important;
+  background-color: white;
+  margin-right: 20px;
+  padding-left: 5px;
+}
+
+#inputText:focus {
+  border: none !important;
+  outline-color: none !important;
+  outline-style: none !important;
+  outline-width: 0px;
+}
+.requestList {
+  list-style: none;
+  padding-left: 10px !important;
+}
+.pMenuList {
+  list-style: none;
+  padding-left: 0px !important;
+}
+.requestListItem,
+.pMenuListItem {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.requestUserImg {
+  width: 40px;
+  height: 40px;
+}
+.buttonSm {
+  height: 20px;
+  width: 35px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px !important;
+}
+button > svg {
+  vertical-align: top;
+}
+.iconAlign {
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.popoverRequest {
+  max-width: 400px !important;
+  width: 300px !important;
+  border-radius: 0px !important;
+  box-shadow: black !important;
+  top: -5px !important;
+}
+
+.profileSection {
+  border-left: solid 1px #ffffff;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+hr {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.pMenuList > li > a {
+  color: #999999 !important;
+}
+
+.pMenuList > li > a:hover {
+  color: green !important;
+  text-decoration: none !important;
+}
+
+.menuBelow {
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 50%;
+  background-color: white;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+  -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+}
+
+.menuText{
+    font-size: small;
+    padding-left:7px
+
+}
+
+.menuBelow > div > a {
+    color: #999999 !important;
+  }
+  
+  .menuBelow > div > a:hover {
+    color: green !important;
+    text-decoration: none !important;
+  }
+  

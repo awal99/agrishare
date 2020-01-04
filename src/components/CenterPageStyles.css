@@ -1,0 +1,91 @@
+.topRow{
+    z-index: 1000;
+    display:flex;
+    position: absolute;
+    right:20px;
+    top:20px;
+    justify-content: center;
+}
+
+.cameraIcon{
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+}
+
+.container{
+    display:'flex';
+    height:1900px;
+    overflow-y: scroll;
+    
+}
+.roundImg{
+    border-radius: 50%;
+    width:50px;
+    height:50px
+}
+
+.smallImgContainer{
+    display: flex;
+    justify-content: flex-start;
+    left: 20px;
+    top:10px;
+}
+
+.postStatus{
+    z-index: 1000;
+    margin-top:-50px;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+}
+
+.bottomButtonsContainer{
+   justify-content: flex-end;
+   display: flex;
+   flex-direction: row;
+}
+
+.bottomButtonsContainer Button{
+    bottom:5px;
+    border-radius: 50px;
+    background-color: white;
+
+    color: black;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.45);
+}
+
+.postername{
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.time{
+ margin-left: 10px;
+ justify-content: center;
+ align-items: center;
+ color: #999999;
+
+ display: flex;
+}
+
+.actionButtons{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.actionButtons div{
+    color: #999999;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.actionButtons div a{
+    text-decoration: none;
+    color: #999999;
+}
+
