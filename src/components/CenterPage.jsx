@@ -132,7 +132,7 @@ const CenterPage = props => {
   return (
     <>
       <Row className="">
-        <Col md="12" className="pl-0 pr-0">
+        <Col md="12" className="m-1">
           <Card className="mt-3 elevatedCard">
             <div className="justify-content-right topRow">
               <a href="#">
@@ -189,12 +189,12 @@ const CenterPage = props => {
                         </div>
                       </div>
                       <Row >
-                       {post.contentMedia.length > 0 && <Col md="6" className="pr-0">
+                       {post.contentMedia.length > 0 && <Col xs='12' md="6" className="">
                         <Row >
                         {post.contentMedia.map((content,id)=>{
                             return(
                             <>
-                            <Col md={3%id == 1?'12':'6'} className="p-1">
+                            <Col xs={3%id == 1?'12':'6'} md={3%id == 1?'12':'6'} className="p-1">
                                 {content.type==='vid' ? 
                                 <video width="100%" height="150" style={{backgroundColor:'#23B10C'}} controls poster="https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
                                   <source src={sources.bunnyTrailer} type="video/mp4" />

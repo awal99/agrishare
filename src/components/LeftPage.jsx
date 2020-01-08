@@ -82,33 +82,33 @@ const LeftPage = props => {
               </Row>
               <span>Contacts</span>
               <Row className="ml-1">
-                <Col sm="2" md="4" className="mt-2 pl-0">
+                <Col xs='6' sm="4" md="4" className="mt-2 pl-0">
                   <Button variant="danger" className="contactBox bg-danger">
                     <span>K</span>
                   </Button>
                 </Col>
-                <Col sm="2" md="4" className="mt-2 pl-0">
+                <Col xs='6' sm="4" md="4" className="mt-2 pl-0">
                   <Button variant="primary" className="contactBox bg-primary">
                     <span>W</span>
                   </Button>
                 </Col>
-                <Col sm="2" md="4" className="mt-2 pl-0">
+                <Col xs='6' sm="4" md="4" className="mt-2 pl-0">
                   <Button variant="success" className="contactBox bg-success">
                     <span>X</span>
                   </Button>
                 </Col>
 
-                <Col sm="2" md="4" className="mt-2 pl-0">
+                <Col xs='6' sm="4" md='4' className="mt-2 pl-0">
                   <Button variant="primary" className="contactBox bg-primary">
                     <span>W</span>
                   </Button>
                 </Col>
-                <Col sm="2" md="4" className="mt-2 pl-0">
+                <Col xs='6' sm="4" md="4" className="mt-2 pl-0">
                   <Button variant="success" className="contactBox bg-success">
                     <span>X</span>
                   </Button>
                 </Col>
-                <Col sm="2" md="4" className="mt-2 pl-0">
+                <Col xs='6' sm="4" md="4" className="mt-2 pl-0">
                   <Button
                     variant="secondary"
                     className="contactBox bg-secondary"
@@ -138,10 +138,10 @@ const LeftPage = props => {
                 </Button>
               </div>
               <Row>
-                <Col sm='6' md="6" className="mt-2 pr-1">
+                <Col xs='6' sm='6' md="6" className="mt-2">
                 <Image width="100%" src="http://pluspng.com/img-png/farmer-png-hd-images-farmers-in-andhra-pradesh-set-an-example-donate-rs-3-5-lakhs-for-development-of-new-capital-the-better-india-1200.png" height="125"/>
                 </Col>
-                <Col sm='6' md="6" className="mt-2 pl-0">
+                <Col xs='6' sm='6' md="6" className="mt-2">
                   <video width="100%" height="125" controls poster="https://images.unsplash.com/photo-1495107334309-fcf20504a5ab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
                     <source src={sources.bunnyTrailer} type="video/mp4" />
                   </video>
@@ -151,10 +151,10 @@ const LeftPage = props => {
                     <source src={sources.bunnyMovie} type="video/mp4" />
                   </video>
                 </Col>
-                <Col sm='6' md="6" className="mt-2 pr-1">
+                <Col xs='6' sm='6' md="6" className="mt-2">
                 <Image width="100%" src="http://pluspng.com/img-png/farmer-png-hd-images-farmers-in-andhra-pradesh-set-an-example-donate-rs-3-5-lakhs-for-development-of-new-capital-the-better-india-1200.png" height="120"/>
                 </Col>
-                <Col sm='6' md="6" className="mt-2 pl-0">
+                <Col xs='6' sm='6' md="6" className="mt-2">
                 <Image width="100%" src="http://pluspng.com/img-png/farmer-png-hd-images-farmers-in-andhra-pradesh-set-an-example-donate-rs-3-5-lakhs-for-development-of-new-capital-the-better-india-1200.png" height="120"/>
                 </Col>
               </Row>
@@ -176,7 +176,7 @@ const LeftPage = props => {
               <Row>
                 {farmers.map(item => {
                   return (
-                    <Col sm="2" md="4" className="mt-2 pl-0 pr-1">
+                    <Col xs='4' sm="2" md="4" className="mt-2 pl-0 pr-1">
                       <Image
                         src={item.img}
                         width="100%"

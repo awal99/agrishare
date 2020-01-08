@@ -104,7 +104,7 @@ hr {
   display: flex;
   flex-direction: row;
   height: 50px;
-  width: 50%;
+  /* width: 50%; */
   background-color: white;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -129,3 +129,48 @@ hr {
     text-decoration: none !important;
   }
   
+
+  /* media queries for responsive design */
+
+  @media screen and (max-width: 320px) {
+    #inputText{
+      width:70px
+    }
+
+    .customSearch{
+      margin-top: 10px;
+    }
+
+  }
+
+  @media screen and (max-width: 400px) {
+    #inputText{
+      width:130px
+    }
+
+    .customSearch{
+      margin-top: 10px;
+    }
+
+  }
+
+
+  @media screen and (min-width: 570px) {
+    #inputText{
+      width:100px;
+    }
+
+    .customSearch{
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (min-width: 900px){
+    #inputText{
+      width:200px;
+    }
+
+    .customSearch{
+      margin-top: 10px;
+    }
+  }

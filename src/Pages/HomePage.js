@@ -74,6 +74,8 @@ const HomePage = () => {
   return (
     <>
       <Navbar bg="success" variant="dark">
+        <Row style={{width:'100%'}}>
+        <Col xs='8' sm='4' md="4" lg='4'>
         <Form inline>
           <div className="customSearch">
             <IoMdSearch />
@@ -84,8 +86,11 @@ const HomePage = () => {
             />
           </div>
         </Form>
-
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        </Col>
+        <Col xs='4' sm='2' md='2' lg='2'>
+        <Navbar.Brand href="#home">Logo</Navbar.Brand>
+        </Col>
+        <Col xs='12'sm='6' md='6' lg={{span:4,offset:2}}>
         <Nav className="mr-sm-2">
           {/* friend request popover start*/}
           <OverlayTrigger
@@ -244,10 +249,13 @@ const HomePage = () => {
             </OverlayTrigger>
           </div>
         </Nav>
+        </Col>
+        </Row>
       </Navbar>
 
       {/* // user menu below navbar */}
       <Row className="justify-content-center">
+        <Col xs='12' sm='10' md='8' >
         <div className="menuBelow">
           <Router>
             <Col md="3">
@@ -256,7 +264,7 @@ const HomePage = () => {
                 <span className="menuText">True Feeds</span>
               </Link>
             </Col>
-            <Col md="3">
+            <Col md="3" className="p-1 m-1">
               <Link to="/">
                 <IoMdText color="#0DAB07" />
                 <span className="menuText">About Us</span>
@@ -276,6 +284,7 @@ const HomePage = () => {
             </Col>
           </Router>
         </div>
+        </Col>
       </Row>
 
       {/*

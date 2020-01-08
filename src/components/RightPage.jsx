@@ -44,7 +44,7 @@ const RightPage =(props)=>{
               <Row>
                 {farmers.map(item => {
                   return (
-                    <Col sm="3" md="6" className="mt-2 pl-0 pr-1">
+                    <Col xs='4' sm="3" md="6" className="mt-2 pl-0 pr-1">
                       <Image
                         src={item.img}
                         width="100%"
@@ -76,7 +76,7 @@ const RightPage =(props)=>{
               <Row>
                 {awards.map(item => {
                   return (
-                    <Col sm="3" md="6" className="mt-2 pl-0 pr-1">
+                    <Col xs='4' sm="3" md="6" className="mt-2 pl-0 pr-1">
                       <Image
                         src={item.img}
                         width="100%"
